@@ -12,45 +12,34 @@ a{
   text-decoration: none;
 }
 
-.header>address>ul>li>a:hover,
-.header>address>ul>li>a:focus{
+.header-address-li:hover,
+.header-address-li:focus{
     color:#404bbf;
 }
 
-.header>nav>ul>li>a:hover,
-.header>nav>ul>li>a:focus{
+.header-nav-li:hover,
+.header-nav-li:focus{
     color:#404bbf;
 }
 
-.header>nav>ul>li>a:active{
+.header-nav-li:active{
     color: #404bbf;
 }
 
-button{
-    cursor: pointer;
-}
-
-.web{
+.logo{
     font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: 4D5AE5;
+    color: #4d5ae5;
 }
 .studio{
-    font-family: "Raleway", sans-serif;
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 1.17;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
     color: #2e2f42;
 }
 
-.header>nav>ul>li>a{
-    font-family: inherit;
+.header-nav-li{
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -58,47 +47,46 @@ button{
     color: #2e2f42;
 }
 
-.header>address>ul>li>a{
-    font-family: inherit;
-    font-weight: 400;
+.address{
+    font-style: normal;
+}
+
+.header-address-li{
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: inherit;
-}
-
-.section-title>h1{
-    font-family: inherit;
-    font-weight: 700;
-    font-size: 56px;
-    line-height: 1.07;
-    letter-spacing: 0.02em;
-    text-align: center;
-    color: #fff;
+    color: #434455;
 }
 
 .section-title{
-    background: #2e2f42;
+    background-color: #2e2f42;
 }
 
-.section-title>button{
+.section-title-h1{
+    font-size: 56px;
+    line-height: 1.07;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #ffffff;
+}
+
+.section-title-button{
     font-family: inherit;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.04em;
     color: #fff;
-    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
-    background: #4d5ae5;
+    background-color: #4d5ae5;
+    cursor: pointer;
 }
 
-.section-title>button:hover,
-.section-title>button:focus{
-    background: #404bbf;
+.section-title-button:hover,
+.section-title-button:focus{
+    background-color: #404bbf;
 }
 
-.section-advantages>ul>li>h3{
-    font-family: inherit;
+.section-h3{
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
@@ -106,82 +94,40 @@ button{
     color: #2e2f42;
 }
 
-.section-advantages>ul>li>p{
-    font-family: inherit;
+.section-p{
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: inherit;
+    color: #434455;
 }
 
 .section-team{
-    background: #f4f4fd;
+    background-color:  #f4f4fd;
 }
 
-.section-team>h2{
-    font-family: inherit;
-    font-weight: 700;
+.section-h2{
     font-size: 36px;
     line-height: 1.11;
-    letter-spacing: 0.02em;
     text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
     color: #2e2f42;
 }
 
-.section-team>ul>li>h3{
-    font-family: inherit;
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-    text-align: center;
-    color: #2e2f42;
+.section-team-img{
+    background-color: #FFFFFF;
 }
 
-.section-team>ul>li>p{
-    font-family: inherit;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    text-align: center;
-    color: inherit;
+.footer{
+    background-color: #2e2f42;
 }
 
-.section-portfolio>h2{
-    font-family: inherit;
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 1.11;
-    letter-spacing: 0.02em;
-    text-align: center;
-    color: #2e2f42;
-}
-
-.section-portfolio>ul>li>h3{
-    font-family: inherit;
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-    color: #2e2f42;
-}
-
-.section-portfolio>ul>li>p{
-    font-family: inherit;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: inherit;
-}
-
-footer>p{
-    font-family: inherit;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
+.footer-studio{
     color: #f4f4fd;
 }
 
-footer{
-    background: #2e2f42;
+.footer-p{
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #f4f4fd;
 }
