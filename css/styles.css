@@ -12,9 +12,18 @@ a{
   text-decoration: none;
 }
 
-address>ul>li>a:hover,
-address>ul>li>a:focus{
-    color: brown;
+.header>address>ul>li>a:hover,
+.header>address>ul>li>a:focus{
+    color:#404bbf;
+}
+
+.header>nav>ul>li>a:hover,
+.header>nav>ul>li>a:focus{
+    color:#404bbf;
+}
+
+.header>nav>ul>li>a:active{
+    color: #404bbf;
 }
 
 button{
@@ -83,6 +92,11 @@ button{
     background: #4d5ae5;
 }
 
+.section-title>button:hover,
+.section-title>button:focus{
+    background: #404bbf;
+}
+
 .section-advantages>ul>li>h3{
     font-family: inherit;
     font-weight: 500;
@@ -94,7 +108,6 @@ button{
 
 .section-advantages>ul>li>p{
     font-family: inherit;
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -127,7 +140,6 @@ button{
 
 .section-team>ul>li>p{
     font-family: inherit;
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -156,7 +168,6 @@ button{
 
 .section-portfolio>ul>li>p{
     font-family: inherit;
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -165,11 +176,10 @@ button{
 
 footer>p{
     font-family: inherit;
-        font-weight: 400;
-        font-size: 16px;
-        line-height: 1.5;
-        letter-spacing: 0.02em;
-        color: #f4f4fd;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #f4f4fd;
 }
 
 footer{
